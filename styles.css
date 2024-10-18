@@ -10,7 +10,7 @@ background-color: rgb(255, 165, 0);
 justify-content: center;
 align-items: center;
 }
-#middle{
+#outer-1{
 	width: 250px;
     height: 250px;
     border: 25px solid #ffa500;
@@ -19,7 +19,7 @@ align-items: center;
     justify-content: center;
     align-items: center;
 }
-#middle-1{
+#middle{
   width: 200px; 
   height: 200px; 
   border: 25px solid #ffff00;
@@ -29,7 +29,7 @@ align-items: center;
  justify-content: center;
  align-items: center;
 }
-#middle-2{
+#middle-1{
   width: 150px; 
   height: 150px; 
   border: 25px solid #008000;
@@ -47,14 +47,16 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;	
+ margin: 25px;	
 }
 #inner-1{
   width: 50px; 
   height: 50px; 
   background-color: #800080;
-  border: 25px solid #800080 ;
+  /* border: 25px solid #800080 ; */
   border-radius: 50%; 
   display: flex;
   justify-content: center;
-  align-items: center;	
+  align-items: center;
+  margin: 25px;
 }
